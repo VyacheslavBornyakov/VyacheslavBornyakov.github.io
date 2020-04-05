@@ -1,0 +1,180 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: url('../img/FonPrivate.png');
+	font-family: 'Roboto', sans-serif;
+	position: inherit;
+}
+header{
+	height: 50px;
+	width: 100%;
+	background-color: #143570;
+}
+.logo {
+	font-family: 'Dancing Script', cursive;
+	color:white;
+	position: absolute;
+	font-weight:700;
+	font-size: 130%;
+	text-align: left;
+	margin-top: 9px;
+	margin-left: 70px;
+	cursor:default;
+}
+.header-btn {
+	position: inherit;
+	text-align: center;
+	color:white;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 13px;
+	float:right;
+	cursor:pointer;
+}
+.header-btn:hover {
+	color:#FB7267;
+}
+
+.DoubleEntry {
+	position: absolute;
+	top:27%;
+	left:38%;
+	width: 24%;
+	height: 45%;
+	background-color: white;
+	border:1px solid #F6F6F6;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+	display: none;
+}
+#text{
+	margin-top: 17%;
+}
+.DoubleEntry input {
+	margin:5% 15% 6% 15%;
+	font-size: 20px;
+	padding: 0 0 0 0;
+	width: 70%;
+	color:black;
+	border:0;
+	border-radius: 0;
+	border-bottom: 1px solid #C4C4C4;
+	cursor: pointer;
+}
+.DoubleEntry input:focus {
+	border-bottom: 1px solid #044F6C;
+	box-shadow:none;
+}
+.DoubleEntry input::-webkit-input-placeholder {
+	color:#BFBFBF;
+}
+#btnSend {
+	margin-top:5%;
+	margin-left: 15%;
+	width:42%;
+	height:48px;
+	background-color: #173C7D;
+	box-shadow:none;
+	border: 0;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 300;
+}
+.privateKabinet {
+	margin-left: 23%;
+	margin-top: 6%;
+}
+.privateKabinet p {
+	font-size: 1.9em;
+	font-weight: 900;
+	color: #173C7D;
+}
+.privateKabinet p strong {
+	color:#173C7D;
+}
+.ContainerPersonalData {
+	margin:5px;
+	display:inline-block;
+	height: 235px;
+	width: 35%;
+	background-color: white;
+	border:1px solid #F6F6F6;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+	padding-top: 2%;
+	padding-left: 3%;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+.ContainerPersonalData:hover {
+	box-shadow: 0 0 15px 15px #F3F6F9;
+}
+.ContainerMessage {
+	margin:5px;
+	height: 280px;
+	width: 71%;
+	background-color: white;
+	border:1px solid #F6F6F6;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+	cursor: pointer;
+
+}
+.ContainerMessage:hover {
+	box-shadow: 0 0 15px 15px #F3F6F9;
+}
+.ContainerPersonalData p {
+	font-size:1.0em ;
+	font-weight:700;
+	color:#173C7D ;
+	margin-top: 3%;
+	text-overflow: clip;
+}
+.ContainerPersonalData div{
+	font-size: 1.1em;
+	font-weight: 600;
+	color:#FE5F55;
+	margin-top: 5%;
+
+}
+#RedactionPrivateCabinet:hover {
+	-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  margin-left: 10%;
+}
+.ContainerPersonalData button{
+	margin-top: 17%;
+	height:20%;
+	width:40%;
+	color: white;
+	background-color: #FE5F55;
+	border: 0;
+	border-radius: 0;
+	font-size: 1.1em;
+}
+.ContainerMessage {
+	padding-top: 2%;
+	padding-left: 3%;
+}
+.ContainerMessage h6 {
+	color:#173C7D;
+	font-size:1.0em ;
+	font-weight:700;
+}
+.ContainerMessage div{
+	margin: 3% 15% 1% 0;
+	padding: 1% 2% 2% 2%;
+	border: 1px solid #E7E7E7;
+	height: 50%;
+	font-size:1.0em ;
+	font-weight:400;
+}
+.ContainerMessage p{
+	color:#C1C1C1;
+	font-size:1.0em ;
+	font-weight:400;
+}
+.ContainerMessage div p{
+	color:#575757;
+	font-size:1.2em ;
+	font-weight:400;
+}

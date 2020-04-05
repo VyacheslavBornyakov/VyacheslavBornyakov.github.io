@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Личный кабинет</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/material-rounded/2x/detain.png" />
+	<link rel="stylesheet" href="../css/styleHomePage.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<header>
+		<div class="logo"><p>LOGO</p></div>
+		<div class="header-btn" id="btnExit" onclick="window.location.href='../index.html'">&dagger; Выйти</div>
+		<div class="header-btn" id="btnPersonalArea">&#9786; Личный кабинет</div>
+		<div class="header-btn" id="btnPromotionalCodes" onclick="window.location.href='WindowPromoCodes.html'">&#9776; Промокоды</div>
+	</header>
+	<div class="sectionHomePage">
+		<div class="contant">
+			<div class="privateKabinet">
+				<form action="#">
+					<p><img src="https://img.icons8.com/color/50/000000/identity-theft.png"/> <strong>Пользователь</strong></p>
+					<div class="ContainerPersonalData">
+						<p>Имя:</p>
+						<p>Email:</p>
+						<p>Телефон:</p>
+						<div id="RedactionPrivateCabinet">&#9986; Редактировать</div>
+					</div>
+					<div class="ContainerPersonalData">
+						<p>Баланс:</p>
+						<button type="submit" class="btn">Пополнить</button>
+					</div><script src="../js/homePage.js"></script>
+					<div class="ContainerMessage">
+						<h6>Сообщение (промокод)</h6>
+						<div><p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацув более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях</p></div>
+						<p>Нажмите два раза для смены текста</p>
+					</div>
+				</form>
+			</div>
+			<div class="DoubleEntry">
+			<form action="#">
+				<input type="text" id="text" class="form-control" placeholder="Имя">
+				<input type="email" class="form-control" placeholder="Email" id="inputEmail">
+				<input type="tel" name="phone" id="phone" class="form-control bfh-phone" data-format="+7 (ddd) ddd-dddd" value="" pattern="(\+[\d\ \(\)\-]{16})" placeholder="Телефон" maxlength="11">
+				<button type="submit" class="btn btn-primary" id="btnSend">Отправить</button>
+			</form>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	
+</body>
+</html>

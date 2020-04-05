@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Промокод</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/material-rounded/2x/detain.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/styleWindowPromoCodes.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<header>
+		<div class="logo"><p>LOGO</p></div>
+		<div class="header-btn" id="btnExit" onclick="window.location.href='../index.html'">&dagger; Выйти</div>
+		<div class="header-btn" id="btnPersonalArea" onclick="window.location.href='WindowHomePage.html'">&#9786; Личный кабинет</div>
+		<div class="header-btn" id="btnPromotionalCodes">&#9776; Промокоды</div>
+	</header>
+	<div class="section">
+		<div class="contant">
+			<div class="PromoCodeKabinet">
+				<form action="#">
+					<form>
+						<div class="Search">
+						<input type="text" placeholder="Поиск">
+						<button type="submit"><img src="https://img.icons8.com/ios/40/000000/edvard-munch.png"/></button>
+						</div>
+					</form>
+					<div class="Headline"><h3>Промокоды</h3></div>
+					<div class="PromotionalCodeStatus">Статус промокода:
+						<div>Активен</div>
+						<div>Не активен</div>
+						<div>Все</div>
+					</div>
+				</form>
+				<div class="ListPromoCodeAndTable">
+					<div class="PromotionalCodeTable">
+						<p>Имя:</p>
+						<p>Email:</p>
+						<p>Телефон:</p>
+						<p>Статус:</p>
+						<div id="RedactionPrivateCabinet">&#9986; Редактировать</div>
+						</div>
+					<div class="ListPromoCode">
+						<div class="PromoCode">Промокод 1</div>
+						<div class="PromoCode">Промокод 2</div>
+						<div class="PromoCode">Промокод 3</div>
+						<div class="PromoCode">Промокод 4</div>
+						<div class="PromoCode">Промокод 5</div>
+						<div class="PromoCode">Промокод 6</div>
+						<div class="PromoCode">Промокод 7</div>
+					</div>
+				<div class="ArrayOfPromoCodes">
+					<ul class="pagination">
+					  <li><a href="#">«</a></li>
+					  <li><a href="#">1</a></li>
+					  <li><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+					  <li><a href="#">»</a></li>
+					</ul>
+				</div></div>
+				<button type="submit" class="btn" id="AddPromotionalCode">Добавить промокод</button>
+			</div>
+			<div class="windowPromotionalCodes">
+				<form action="#">
+				<input type="text" id="Promocode" class="form-control" placeholder="Введите промокод">
+				<button type="submit" class="btn btn-primary" id="btnToApply">Применить</button>
+				</form>
+			</div>
+			<div class="DoubleEntry">
+			<form action="#">
+				<input type="text" id="text" class="form-control" placeholder="Имя">
+				<input type="email" class="form-control" placeholder="Email" id="inputEmail">
+				<input type="tel" name="phone" id="phone" class="form-control bfh-phone" data-format="+7 (ddd) ddd-dddd" value="" pattern="(\+[\d\ \(\)\-]{16})" placeholder="Телефон" maxlength="11">
+				<button type="submit" class="btn btn-primary" id="btnSend">Отправить</button>
+			</form>
+			</div>
+		</div>
+	</div>
+	<script src="../js/WindowPromoCodes.js"></script>
+</body>
+</html>

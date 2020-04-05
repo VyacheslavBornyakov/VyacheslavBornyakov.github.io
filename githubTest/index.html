@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Тестовый сайт</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://img.icons8.com/material-rounded/2x/detain.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	
+	<header><div class="header"></div></header>
+	<div class="logo"><p>LOGO</p></div>
+	
+	<div class="section">
+		<div class="contant">
+			<div class="btnEntry">
+				<div id="buttomLogin">Регистрация</div>
+				<div id="buttomEntry">Вход в аккаунт</div>
+			</div>
+			<div class="windowAccount">
+				<div class="form" id="WindowRegistration">
+					<p align="justify">Регистрация</p>
+					<form action="#">
+						<input type="text" class="form-control" placeholder="Имя">
+						<input type="email" class="form-control" placeholder="Email" id="inputEmail">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+						<input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+        				<label class="custom-control-label" for="customControlAutosizing">Согласен с политикой конфиденциальности</label>
+        				<button type="submit" class="btn btn-primary" id="btnFurther">Далее</button>
+					</form>
+				</div>
+				<div class="form" id="DoubleWindowRegistration">
+					<p></p>
+					<form action="#">
+						<input type="text" class="form-control"
+						id="EntryAddressSite" placeholder="Введите адрес вашего сайта">
+						<button type="submit" class="btn btn-primary" id="btnRegistration" onclick="window.location.href='html/WindowHomePage.html'">Зарегистрироваться</button>
+						<div id="btnBack">&#8592; Назад</div>
+					</form>
+				</div>
+				<div class="form" id="WindowsEntry">
+					<p>Вход в аккаунт</p>
+					<form action="#">
+						<input type="text" class="form-control" placeholder="Имя" id="name">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+						<button type="submit" class="btn btn-primary" id="btnEntryAccount" onclick="window.location.href='html/WindowHomePage.html'">Далее</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer><div class="footer"></div></footer>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>

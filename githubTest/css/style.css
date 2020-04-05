@@ -1,0 +1,177 @@
+* {
+	margin:0;
+}
+body {
+	background-image: url(https://img1.goodfon.ru/original/2560x1600/0/5b/gory-oblaka-sneg-2018.jpg); 
+	font-family: 'Roboto', sans-serif;
+}
+.section{
+	height: 100%;
+	width: 100%;
+}
+.header {
+	height: 15px;
+	width: 100%;
+	background-color: black;
+}
+.logo {
+	font-family: 'Dancing Script', cursive;
+	color:white;
+	position: absolute;
+	top: 6%;
+	left:4%;
+	font-weight:700;
+	font-size: 150%;
+}
+
+.contant {
+	background-image: url(https://www.freelancejob.ru/upload/561/37f09eda257bc0466b98947bc33cdacf.jpg);
+	height:98%;
+	width: 66%;
+	margin-left: 34%;
+	position: absolute;
+}
+@media (max-width: 900px;)(min-width: 500px;) {}
+.btnEntry{
+	margin-left:-17%;
+	margin-top: 30%;
+}
+#buttomLogin {
+	height: 8%;
+	width: 15%;
+	padding: 2% 0.5% 2% 0.5%;
+	background-color:rgba(0 50 50 0);
+	color:#FFFFFF;
+	position: inherit;
+	text-align: center;
+	font-weight:550;
+	font-size: 130%;
+	cursor:pointer;
+}
+
+#buttomEntry {
+	height: 8%;
+	width: 15%;
+	background-color:rgba(0 50 50 0);
+	position: inherit;
+	padding: 2% 0.5% 2% 0.5%;
+	text-align: center;
+	font-weight:550;
+	font-size: 130%;
+	cursor:pointer;
+	color:#FFFFFF;
+}
+
+.form#WindowRegistration {
+	position: absolute;
+	top:21%;
+	left:29%;
+	width: 36%;
+	height: 56%;
+	background-color: white;
+	border:1px solid #F6F6F6;
+	display:none;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+}
+.form#DoubleWindowRegistration {
+	position: absolute;
+	top:30%;
+	left:30%;
+	background-color: white;
+	height: 39%;
+	width: 37%;
+	border:1px solid #F6F6F6;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+	display:none;
+}
+.form#WindowsEntry {
+	position: absolute;
+	top:23%;
+	left:30%;
+	width: 36%;
+	height: 53%;
+	background-color: white;
+	border:1px solid #F6F6F6;
+	display:none;
+	box-shadow: 0 0 15px 8px #F3F6F9;
+}
+.form p {
+	font-size: 25px;
+	font-weight: 900;
+	color:#173C7D;
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	cursor:default;
+}
+.form input {
+	margin:10% 15% 5% 15%;
+	font-size: 20px;
+	padding: 0 0 0 0;
+	width: 70%;
+	color:black;
+	border:0;
+	border-radius: 0;
+	border-bottom: 1px solid #C4C4C4;
+	cursor: pointer;
+}
+.form input::-webkit-input-placeholder {
+	color:#BFBFBF;
+}
+.form input:focus {
+	border-bottom: 1px solid #044F6C;
+	box-shadow:none;
+}
+.form label {
+	margin: 0% 5% 5% 20%;
+	color:#C4C4C4;
+	box-shadow:none;
+	border:0;
+}
+.form label:hover, focus, link{
+		box-shadow:none;
+		border:0;
+}
+.form button {
+	position: inherit;
+	margin-top:2%;
+	margin-left: 30%;
+	width:40%;
+	height:50px;
+	background-color: #173C7D;
+	box-shadow:none;
+	border: 0;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 300;
+}
+.form button:focus{
+	background-color: #173C7D;
+	box-shadow:none;
+}
+#EntryAddressSite {
+	margin:20% 15% 11% 15%;
+}
+#EntryAddressSite::-webkit-input-placeholder {
+	color:#BFBFBF;
+}
+#btnRegistration {
+	width:50%;
+	margin-left: 25%;
+}
+#btnBack {
+	font-weight:200;
+	font-size:1.2em;
+	color:#173C7D;
+	width:20%;
+	height:10%;
+	margin:5% 20% 20% 40%; 
+	cursor: pointer;
+}
+.form#WindowsEntry input#name {
+	margin-top:15%;
+}
+#btnEntryAccount {
+	margin-top: 10%;
+}
